@@ -155,7 +155,7 @@ Once you have deployed, you will need to check that you can properly authenticat
 
 2.  Hit `/auth/osm_login/` : This will give you the Login URL where you can supply your osm username/password
 
-    Response should be like this :
+    The response should be like this :
 
         {"login_url": "https://www.openstreetmap.org/oauth2/authorize/?response_type=code&client_id=xxxx"}
 
